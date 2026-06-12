@@ -24,16 +24,15 @@ console.log(a%b)
 var a=4
 var b=6
 console.log(a**b)
-
+//Assignment
 console.log("Assignment operator");
-
 var a=5;
 console.log(a+=5);
 console.log(a-=5);
 console.log(a/=5);
 console.log(a*=5);
 console.log(a**=5);
-
+//comparision
 console.log("Comparision operator" );
 var a=30;
 var b=20;
@@ -43,7 +42,7 @@ console.log(a<b);
 console.log(a>b);
 console.log(a<=b);
 console.log(a>=b);
-
+//Logical
 console.log("Logical operator");
 console.log(a>1 && b>1);
 console.log(a>1 || b>0);
@@ -51,7 +50,6 @@ console.log(a>1);
 console.log(a>1 && b>0);
 console.log(a>0 || b>1);
 console.log(a>0);
-
 //Bitwise
 console.log("Unary operation");
 console.log(c++);
