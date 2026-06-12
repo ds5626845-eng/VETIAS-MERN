@@ -1,4 +1,5 @@
- /*//arithmetic
+ //arithmetic
+console.log("Arithmetic operator");
 
 var a=10
 var b=15
@@ -22,7 +23,7 @@ console.log(a%b)
 //expe
 var a=4
 var b=6
-console.log(a**b)*/
+console.log(a**b)
 
 console.log("Assignment operator");
 
@@ -43,4 +44,22 @@ console.log(a>b);
 console.log(a<=b);
 console.log(a>=b);
 
+console.log("Logical operator");
+console.log(a>1 && b>1);
+console.log(a>1 || b>0);
+console.log(a>1);
+console.log(a>1 && b>0);
+console.log(a>0 || b>1);
+console.log(a>0);
+
+//Bitwise
+console.log("Unary operation");
+console.log(c++);
+console.log(c--);
+console.log(++c);
+console.log(--c);
+
+console.log("Ternary operation");
+var result=(a>b)?"a is grater" : "b is grater"
+console.log(result);
 
