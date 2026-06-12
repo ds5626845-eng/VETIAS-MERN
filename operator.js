@@ -1,4 +1,5 @@
-//arithmetic
+ /*//arithmetic
+
 var a=10
 var b=15
 console.log(a+b)
@@ -21,4 +22,14 @@ console.log(a%b)
 //expe
 var a=4
 var b=6
-console.log(a**b)
+console.log(a**b)*/
+
+console.log("Assignment operator");
+
+var a=5;
+console.log(a+=5);
+console.log(a-=5);
+console.log(a/=5);
+console.log(a*=5);
+console.log(a**=5);
+
