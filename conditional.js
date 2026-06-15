@@ -16,7 +16,7 @@ else {
 }
 
 console.log("the next eg:");
-var light = "Green";
+var light = "Green"; 
 
 if (light == "Green") {
     console.log("Go!");
@@ -30,4 +30,19 @@ else if (light == "Red") {
 else {
     console.log("Invalid traffic light");
 }
+ console.log("switch condition");
+ var signal ="white"
+ switch(signal){
+    case "green":
+        console.log("go");
+        break;
+    case "yellow":
+        console.log("wait");
+        break;
+    case "red":
+        console.log("stop");
+        break;
+    default :
+        console.log("Invalid signal color");
+    }
 
