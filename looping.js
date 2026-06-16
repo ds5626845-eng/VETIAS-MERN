@@ -12,10 +12,15 @@ while (k<=10){
     k++;
 }
 
-console.log("count");
+console.log("do while");
 
-let count=5;
-while(count>0){
+
+//do while
+let count=6
+do{
     console.log(count);
-    count--;
-}
+    count++;
+}while(count <=5)
+    console.log("outside do..while");
+
+    
